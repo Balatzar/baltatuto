@@ -1,26 +1,48 @@
 ## Les 4 piliers du JS
 
+Le minimum.
+
+Voir plus [ici](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+
 ### Les opérateurs
 
 Affectation
 
-`=`
+```
+var x = 1;
+console.log(x); // 1
+```
 
 Affectation après opération
 
-`+= -= *= /= %=`
+```
++= -= *= /= %=
+
+var x = 1;
+x += 1;
+console.log(x); // 2
+```
 
 Opérateurs arithmétiques
 
-`+ - * / %`
+```
++ - * / %
+
+var x = 1;
+console.log(x - 2); // -1
+```
 
 Egalité
 
-`==`
+```
+1 == '1' // true
+```
 
 Egalité stricte
 
-`===`
+```
+1 === '1' // false
+```
 
 Inégalité
 
@@ -48,7 +70,13 @@ Inférieur ou égal
 
 Incrémentation
 
-`++`
+```
+++
+
+var x = 1;
+x++;
+console.log(x); // 2
+```
 
 Décrémentation
 
@@ -56,23 +84,43 @@ Décrémentation
 
 ET logique
 
-`&&`
+```
+&&
+
+1 < 2 && false // false
+```
 
 OU logique
 
-`||`
+```
+||
+
+1 < 2 || false // true
+```
 
 NON logique
 
-`!`
+```
+!
+
+!true // false
+```
 
 Concaténation de chaîne de charactères
 
-`+`
+```
++
+
+console.log("coucou " + "balthazar"); // "coucou balthazar"
+```
 
 Renvoyer le type
 
-`typeof`
+```
+typeof
+
+console.log(typeof 1) // number
+```
 
 [Opérateurs](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Expressions_et_Op%C3%A9rateurs)
 
